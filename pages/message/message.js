@@ -13,7 +13,7 @@ Page({
         title: '马云',
         url:
           'http://img1.3lian.com/gif/more/11/201212/0d1252b54be4f2d240b6b7fe4ed35054.jpg',
-        message: '什么鬼，我有支付宝',
+        message: '现在我已退休，注重教育了',
         time: '15:15',
         count: 5,
       },
@@ -21,7 +21,7 @@ Page({
         title: '马化腾',
         url:
           'http://img1.3lian.com/gif/more/11/201212/cd1d745ed855bef27f47c8aff0786067.jpg',
-        message: '哈哈哈，我要一统江湖啦，',
+        message: '游戏在手，世界我有，',
         time: '15:15',
         count: 22,
       },
@@ -36,7 +36,7 @@ Page({
         title: '李彦宏',
         url:
           'http://img1.3lian.com/gif/more/11/201212/c011f2b2ab1a10d79fe931a786503d03.jpg',
-        message: '抄袭我的吧，我早都做过了',
+        message: 'AI可奋起直追',
         time: '12:13',
         count: 1,
       },
@@ -44,7 +44,7 @@ Page({
         title: '雷军',
         url:
           'http://img1.3lian.com/gif/more/11/201212/cf9d56d05c0cbc1edbf21cf64ad9c341.jpg',
-        message: '微信给你下线，看你还嘚瑟',
+        message: '小米小米，是个大虾米',
         time: '12:11',
         count: 0,
       },
@@ -52,7 +52,7 @@ Page({
         title: '前端开发者',
         url:
           'http://img1.3lian.com/gif/more/11/201212/04b335ead07530a6188a27549fad1a68.jpg',
-        message: '我们的春天来啦，哈哈哈',
+        message: '保佑快快找到工作',
         time: '11:35',
         count: 0,
       },
@@ -84,7 +84,7 @@ Page({
         title: '后台',
         url:
           'http://img1.3lian.com/gif/more/11/201212/411cffabcd6e4474b48f1ecac76e1b3f.jpg',
-        message: '不看好小程序',
+        message: '阳光明媚',
         time: '02:45',
         count: 0,
       },

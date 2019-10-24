@@ -1,2 +1,21 @@
 <!--pages/message/message.wxml-->
-
+<view class='container'>
+  <view class='search'>搜索</view>
+  <view class='content' wx:for="{{messages}}" wx:key="{{index}}">
+    <navigator url="/pages/message/chat/chat">
+      <view class='images'>
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class='text'>
+        <view class='middle info'>
+          <label class='nickname'>{{item.title}}</label>
+          <label class='message'>{{item.message}}</label>
+        </view>
+        <view class='right info'>
+          <label class='time'>{{item.time}}</label>
+          <label class='count' wx:if="{{item.count>0}}">{{item.count}}</label>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

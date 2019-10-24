@@ -1,1 +1,65 @@
 /* pages/dynamics/dynamics.wxss */
+.search {
+  width:680rpx;
+  background: rgb(241, 241, 241);
+  font-size: 28rpx;
+  line-height: 50rpx;
+  color:rgb(185, 185, 185);
+  text-align:center;
+  margin:20rpx auto;
+  border-radius: 20rpx;
+}
+
+.header {
+  display:flex;
+  justify-content: space-around;
+  padding-bottom:20rpx;
+  border-bottom: 50rpx solid rgb(245, 245, 245);
+}
+
+.function {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 24rpx;
+}
+.headerImage {
+  width:100rpx;
+  height:100rpx;
+  margin-bottom:24rpx;
+}
+
+.content {
+  display:flex;
+  flex-direction: column;
+}
+
+.lists {
+  line-height: 50rpx;
+  border-top:3rpx solid rgb(245, 245, 245);
+  display: flex;
+  position: relative;
+}
+
+.lists:nth-child(4) {
+  border-top:30rpx solid rgb(245, 245, 245);
+}
+
+.icon {
+  width:50rpx;
+  height:50rpx;
+  margin:30rpx 40rpx;
+}
+
+.group {
+  font-size: 28rpx;
+  margin:25rpx -5rpx;
+}
+
+.arrow {
+  width:50rpx;
+  height:50rpx;
+  position:absolute;
+  top:25rpx;
+  right: 20rpx;
+}

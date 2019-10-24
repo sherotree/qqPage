@@ -1,2 +1,25 @@
 <!--pages/dynamics/dynamics.wxml-->
-<text>pages/dynamics/dynamics.wxml</text>
+<view class='container'>
+  <view class='search'>搜索</view>
+  <view class='header'>
+    <view class='function'>
+      <image class='headerImage' src='/images/zone.png'></image>
+      好友动态
+    </view>
+    <view class='function'>
+      <image class='headerImage' src='/images/vicinity.png'></image>
+      附近
+    </view>
+     <view class='function'>
+      <image class='headerImage' src='/images/tribe.png'></image>
+      兴趣部落
+    </view>
+  </view>
+  <view class='content'>
+    <view class='lists' wx:for="{{messages}}" wx:key="{{index}}">
+    <image class='icon' src="{{item.icon}}"></image>
+    <label class='group'>{{item.groupName}}</label>
+    <image class='arrow' src="{{item.rightImage}}"></image>
+    </view>
+  </view>
+</view>

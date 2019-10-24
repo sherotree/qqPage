@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/dynamics/dynamics",
     "pages/contacts/contacts",
     "pages/message/message",
-    "pages/dynamics/dynamics",
     "pages/message/chat/chat"
   ],
   "window": {
